@@ -11,6 +11,7 @@ public abstract class RecordBook {
         data = new ArrayList<Contact>();
     }
 
+
     public abstract Contact findContact(String name);
 
     public String getRecordBookName(){

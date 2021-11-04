@@ -1,6 +1,24 @@
 package bsu.comp152;
 
-public class BSUFacultyBook extends RecordBook {
+import java.util.ArrayList;
 
-    public BSUFacultyBook
+public class BSUFacultyBook extends RecordBook{
+
+    public BSUFacultyBook(String Label) {
+        super(Label);
+    }
+
+    @Override
+    public Contact findContact(String name) {
+        return null;
+    }
+    public void loadData(){
+    var fileName = "Contacts.txt";
+        ArrayList data = new ArrayList<Contact>();
+
+    }
+
+
+
+
 }
